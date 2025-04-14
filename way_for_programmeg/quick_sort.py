@@ -8,7 +8,7 @@ def quick_sort(arr):
 
         if left < right:
             wl, wr = left, right#fdsgdgdh
-            mid = arr[(left + right) // 2]
+            mid = arr[(left + right) // 2]#z nkjflsadfdkasflkjslkdfjkhs
             while left <= right:
                 while arr[left] < mid: left += 1
                 while arr[right] > mid: right -= 1
