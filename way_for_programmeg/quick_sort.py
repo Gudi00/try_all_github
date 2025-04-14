@@ -5,8 +5,9 @@ def quick_sort(arr):
     while temp:
         right = temp.pop()
         left = temp.pop()
+
         if left < right:
-            wl, wr = left, right
+            wl, wr = left, right#fdsgdgdh
             mid = arr[(left + right) // 2]
             while left <= right:
                 while arr[left] < mid: left += 1
