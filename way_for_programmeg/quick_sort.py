@@ -5,9 +5,10 @@ def quick_sort(arr):
     while temp:
         right = temp.pop()
         left = temp.pop()
+
         if left < right:
-            wl, wr = left, right
-            mid = arr[(left + right) // 2]
+            wl, wr = left, right#fdsgdgdh
+            mid = arr[(left + right) // 2]#z nkjflsadfdkasflkjslkdfjkhs
             while left <= right:
                 while arr[left] < mid: left += 1
                 while arr[right] > mid: right -= 1
@@ -25,6 +26,8 @@ def quick_sort(arr):
 mas = [random.randint(1, 10) for i in range(8)]
 # mas = [3, 9, 6, 9]
 print(mas)
+def say():
+    print(mas)
 quick_sort(mas)
 print(mas)
 
