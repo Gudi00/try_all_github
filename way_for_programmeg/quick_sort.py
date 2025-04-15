@@ -26,7 +26,7 @@ def quick_sort(arr):
 mas = [random.randint(1, 10) for i in range(8)]
 # mas = [3, 9, 6, 9]
 print(mas)
-def say():
+def say2():
     print(mas)
 quick_sort(mas)
 print(mas)
